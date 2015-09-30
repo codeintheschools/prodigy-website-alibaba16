@@ -1,0 +1,10 @@
+.main-header {
+  padding-top: 30px;
+  height: 850px;
+  background: linear-gradient(#3399ff , transparent 80%),  /*3399ff*/
+              linear-gradient(0deg, #b8b8b8, transparent),
+             
+              #ffa949 url('../img/philippines1.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+}
