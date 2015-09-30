@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <title>Ali Scott | Mechanical Engineer</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Abril+Fatface' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Abril+Fatface%7cYanone+Kaffeesatz%7cPlayfair+Display:400,400italic%7cShadows+Into+Light%7cBangers' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" href="css/main.css">
 	 <link rel="stylesheet" href="css/responsive.css">
+	 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
      <meta name="viewport" content="width=device-width,  initial-scale=1.0">
   </head>
-  <body>
+  <body class="main-header">
     <header> 
       <a href="index.html" id="logo"> 
-      <h1>Ali Scott</h1>
-       <h2>Mechanical Engineer</h2> 
+      <h1 class="animation">Ali Scott</h1>
+       <h2 class="animation">Mechanical Engineer</h2> 
       </a>
-      <nav>
+      <nav class="animation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html" class="selected">Portfolio</a></li>
@@ -23,46 +24,70 @@
           <li><a href="contact.html">About Me</a></li>
       </nav>
     </header>
-    <div id="wrapper">
+    <div id="wrapper"  class="imageGallery">
       <section>
-        <ul id="gallery">
+        <ul id="primary" class="images">
           <li>
-          <a href="img/numbers-01.jpg">
-            <img src="img/numbers-01.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-         </li>
-          <li>
-          <a href="img/numbers-02.jpg">
-            <img src="img/numbers-02.jpg" alt="">
-            <p>Playing with blending mode on photshop.</p>
+          <a href="img/venice.png">
+            <img src="img/venice.png" alt="">
           </a>
          </li>     
           <li>
-          <a href="img/numbers-06.jpg">
-            <img src="img/numbers-06.jpg" alt="">
-            <p>Trying to create a 80's style of glows.</p>
+          <a href="img/basilica.png">
+           <img src="img/basilica.png" alt="">
           </a>
          </li>      
           <li>
-          <a href="img/numbers-09.jpg">
-            <img src="img/numbers-09.jpg" alt="">
-            <p>Drips created using Photoshop brushes</p>
+          <a href="img/unititled.png">
+            <img src="img/untitled.png" alt="">
           </a>
          </li>     
           <li>
-          <a href="img/numbers-12.jpg">
-            <img src="img/numbers-12.jpg" alt="">
-            <p>Creating shapes using repition.</p>
+          <a href="img/landmarks2.png">
+            <img src="img/landmarks2.png" alt="">
+          </a>  
+         </li>  <li>
+          <a href="img/aboutVenice.png">
+            <img src="img/aboutVenice.png" alt="">
+          </a>  
+         </li>  <li>
+          <a href="img/aboutVeniceInfo.png">
+            <img src="img/aboutVeniceinfo.png" alt="">
+          </a>  
+         </li>  <li>
+          <a href="img/aboutVeniceinfo2.png">
+            <img src="img/aboutVeniceInfo2.png" alt="">
           </a>  
          </li>  
         </ul>
+		<ul>
+		 <ul id="secondary" class="images">
+          <li>
+          <a href="img/basicsiteport.png">
+            <img src="img/basicsiteport.png" alt="">
+          </a>
+         </li>     
+          <li>
+          <a href="img/basicsiteabout.png">
+           <img src="img/basicsiteabout.png" alt="">
+          </a>
+         </li>      
+          <li>
+          <a href="img/basicsitecontact.png">
+            <img src="img/basicsitecontact.png" alt="">
+          </a>
+         </li>     
+		</ul>
       </section>
       <footer>
-        <a href="http://twitter.com/asian_li"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/AliSkott"><img src="img/facebook-wrap.png" alt="FacebookLogo" class="social-icon"></a>
+        <a href="http://twitter.com/asian_li"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/AliSkott"><img src="img/facebook.png" alt="FacebookLogo" class="social-icon"></a>
         <p>&copy; 2015 Ali Scott</p>
       </footer>
     </div>
+	 	    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+	<div id="overlay"></div>
   </body>
 </html>
